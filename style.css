@@ -1,0 +1,95 @@
+/* google fonts */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* -----------------------------------------------
+
+-------------------------------------------------*/
+
+
+      /* top-section */
+      h1{
+        text-align: center;
+        font-size: 3rem;
+      }
+
+      .main-container{
+          display: flex;
+          background-color: white;
+      }
+      .container-2 {
+       align-items: center;
+        width: 80%;
+        padding: 20px;
+        margin: 20px;
+      }
+    .button{
+      background-color: tomato;
+      color: grey;
+      height: 50px;
+      width: 150px;
+      
+    }
+    .button a{
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+      font-size: 20px;
+      padding-top: 10px;
+    }
+     .container-1{
+       margin-top: 4%;
+       padding-left: 5%;
+     }
+    
+
+      .container-1 h2{
+        font-size: 3em;
+      }
+      .container-2{
+        width: 50%;
+      }
+
+@media only screen and (max-width:688px){
+  
+  .main-container{
+    flex-direction: column;
+
+    
+
+  }
+  
+}
+
+/* my prodact */
+ 
+.div1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+.div2{
+  margin-top: 10%;
+}
+.footer{
+  background-color: rgb(0, 0, 0);
+  
+  text-align: center;
+  padding: 2em;
+}
+.footer h3{
+  color: white;
+}
+.footer h5{
+  color: white;
+}
+.footer p{
+  color: white;
+}
+/* .footer-conteiner{
+ 
+ 
